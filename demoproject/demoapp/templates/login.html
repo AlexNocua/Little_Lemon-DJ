@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      {% csrf_token %}
+      <h1>Login de la Nueva aplicación</h1>
+      <label for="">Nombre de usuario:</label>
+      <input type="text" />
+      <label for="">Contraseña</label>
+      <input type="text" />
+      <input type="submit" value="Click" />
+    </form>
+
+    <form action="" method="post">
+      {% csrf_token %}
+      <h3>Vuelve a nuestra pagina principal</h3>
+      <input type="submit" />
+    </form>
+  </body>
+</html>

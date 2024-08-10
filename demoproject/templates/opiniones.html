@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block content %}
+  <section class="container">
+    <h3>Conoce las opiniones del publico</h3>
+    <p>Nos encantaría conocer tu opinión sobre tu reciente visita a Little Lemon.</p>
+    <ul>
+      <li>
+        ¿Qué aspectos te gustaron más y cuáles podríamos mejorar?<br />
+      </li>
+      <li>
+        ¿Qué opinas sobre la variedad de nuestro menú, la calidad de los ingredientes y la atención del personal?<br />
+      </li>
+      <li>¿Qué podemos hacer para que tu próxima visita sea aún mejor?</li>
+    </ul>
+    <br /><b class="text-center">Tu opinión es muy importante parea nosotros.</b>
+  </section>
+
+  {% if content %}
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Nombre del usuario</th>
+          {% comment %} <th scope="col">Correo</th> {% endcomment %}
+          <th scope="col">Opinion</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in content %}
+          <tr>
+            <th scope="row">1</th>
+            <td>{{ item.nombre }}</td>
+            {% comment %} <td>{{ item.correo }}</td> {% endcomment %}
+            <td>{{ item.opinion }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <h3>No se encuentra ninguna opinion por ahora.</h3>
+  {% endif %}
+{% endblock %}

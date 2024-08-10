@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>Infirmacion de rutas:</h1>
+      <p>{{ address }}</p>
+      <p>{{ path }}</p>
+    </center>
+    {% comment %} 
+    tener en cuenta ese url Login 
+    {% url login %} {% endcomment %}
+    <form action="" method="post">
+      {% csrf_token %}
+      <h1>Esta es nuestra página principal</h1>
+      <h3>Redirecciona al Login</h3>
+      <input type="submit" value="Click" />
+    </form>
+  </body>
+</html>

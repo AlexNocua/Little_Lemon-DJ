@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h3>Conoce mas información sobre tu producto</h3>
+  <section class="container">
+    <div class="info">
+      <p class="">
+        <b>Producto: </b>{{ menu_info.nombreproducto }}
+      </p>
+    </div>
+    <div class="info">
+      <p class="">
+        <b>Cantidad: </b>{{ menu_info.cantidad_producto }}
+      </p>
+    </div>
+
+    <div class="info d-flex">
+      <p class="col w-50">
+        <b>Descripcion:</b>{{ menu_info.descripcion }}
+      </p>
+      <div class="col text-center justify-content-center">
+        <p class="">
+          <b>Imagen:</b>
+        </p>
+        <img class="" src="{{ menu_info.imagen_url }}" alt="Imagen {{ menu_info.nombreproducto }}" style="max-width: 200px;" />
+      </div>
+    </div>
+  </section>
+{% endblock %}

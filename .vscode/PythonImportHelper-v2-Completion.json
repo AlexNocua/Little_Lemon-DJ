@@ -1,0 +1,1253 @@
+[
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "django.db",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db",
+        "description": "django.db",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "django",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django",
+        "description": "django",
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "NumberInput",
+        "importPath": "django.forms.widgets",
+        "description": "django.forms.widgets",
+        "isExtraImport": true,
+        "detail": "django.forms.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "NumberInput",
+        "importPath": "django.forms.widgets",
+        "description": "django.forms.widgets",
+        "isExtraImport": true,
+        "detail": "django.forms.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponsePermanentRedirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponsePermanentRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
+        "label": "loader",
+        "importPath": "django.template",
+        "description": "django.template",
+        "isExtraImport": true,
+        "detail": "django.template",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "importPath": "demoproject.demoproject.views",
+        "description": "demoproject.demoproject.views",
+        "isExtraImport": true,
+        "detail": "demoproject.demoproject.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "format_html",
+        "importPath": "django.utils.html",
+        "description": "django.utils.html",
+        "isExtraImport": true,
+        "detail": "django.utils.html",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "ouvir_microphone",
+        "importPath": "PLN",
+        "description": "PLN",
+        "isExtraImport": true,
+        "detail": "PLN",
+        "documentation": {}
+    },
+    {
+        "label": "DemoappConfig",
+        "kind": 6,
+        "importPath": "demoproject.demoapp.apps",
+        "description": "demoproject.demoapp.apps",
+        "peekOfCode": "class DemoappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'demoapp'",
+        "detail": "demoproject.demoapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "DemoForm",
+        "kind": 6,
+        "importPath": "demoproject.demoapp.forms",
+        "description": "demoproject.demoapp.forms",
+        "peekOfCode": "class DemoForm(forms.Form):\n    name = forms.CharField(\n        max_length=100, widget=forms.Textarea(attrs={'rows': 5}))\n    email = forms.EmailField(max_length=100, label='Ingresa tu email')\n    reservation_date = forms.DateField(\n        widget=NumberInput(attrs={'type': 'date'}))\n    role = forms.ChoiceField(choices=role_choises)\n    role_type_radioselect = forms.ChoiceField(\n        widget=forms.RadioSelect, choices=role_choises)\n# uso de la clase formulario para la creacion y envio de los datos a la base ded atos directamente",
+        "detail": "demoproject.demoapp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ClaseForm",
+        "kind": 6,
+        "importPath": "demoproject.demoapp.forms",
+        "description": "demoproject.demoapp.forms",
+        "peekOfCode": "class ClaseForm(forms.ModelForm):\n    class Meta:\n        # esta es igual a la creacion del modelo del formulario\n        model = Logger\n        # este es para traer todos los campos del modelo\n        fields = '__all__'\n# Anteproyecto ={\n#     'nombre':'CIGAP',\n#     'Integrante_1': 'Alex Nocua'\n# }",
+        "detail": "demoproject.demoapp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "role_choises",
+        "kind": 5,
+        "importPath": "demoproject.demoapp.forms",
+        "description": "demoproject.demoapp.forms",
+        "peekOfCode": "role_choises = [('italian', 'Itaian'), ('colombia',\n                                        'Colombia'), ('brasil', 'Brasil')]\nclass DemoForm(forms.Form):\n    name = forms.CharField(\n        max_length=100, widget=forms.Textarea(attrs={'rows': 5}))\n    email = forms.EmailField(max_length=100, label='Ingresa tu email')\n    reservation_date = forms.DateField(\n        widget=NumberInput(attrs={'type': 'date'}))\n    role = forms.ChoiceField(choices=role_choises)\n    role_type_radioselect = forms.ChoiceField(",
+        "detail": "demoproject.demoapp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Menu",
+        "kind": 6,
+        "importPath": "demoproject.demoapp.models",
+        "description": "demoproject.demoapp.models",
+        "peekOfCode": "class Menu(models.Model):\n    name = models.CharField(max_length=10)\n    cuisine = models.CharField(max_length=50)\n    price = models.IntegerField()\n    def __str__(self):\n        return self.name + ' : ' + self.cuisine\nclass Menuitems(models.Model):\n    name = models.CharField(max_length=200)\n    course = models.CharField(max_length=300)\n    year = models.IntegerField()",
+        "detail": "demoproject.demoapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Menuitems",
+        "kind": 6,
+        "importPath": "demoproject.demoapp.models",
+        "description": "demoproject.demoapp.models",
+        "peekOfCode": "class Menuitems(models.Model):\n    name = models.CharField(max_length=200)\n    course = models.CharField(max_length=300)\n    year = models.IntegerField()\n    # recordar que cunaod se ejecute la clase me muestre la funcion:\n    def __str__(self):\n        return self.name + ':' + self.couese\n# creacion del modelo formulario\nclass Logger(models.Model):\n    Nombre = models.CharField(max_length=100)",
+        "detail": "demoproject.demoapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Logger",
+        "kind": 6,
+        "importPath": "demoproject.demoapp.models",
+        "description": "demoproject.demoapp.models",
+        "peekOfCode": "class Logger(models.Model):\n    Nombre = models.CharField(max_length=100)\n    Apellido = models.CharField(max_length=100)\n    Fecha = models.CharField(max_length=100)",
+        "detail": "demoproject.demoapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "demoproject.demoapp.urls",
+        "description": "demoproject.demoapp.urls",
+        "peekOfCode": "app_name = 'demoapp'\nurlpatterns = [\n    path('', views.index, name='index'),\n    path('Renderizada_Http_response', views.ejemplo_render_httpresponse,\n         name='ejemplo_render_httpresponse'),\n    path('information_request_response', views.information, name='information'),\n    # path('Usuario/<int:user_id>', views.user_by_id, name= 'user_by_id'),\n    # otra forma de parametro en url\n    path('usuario/<name>/<id>', views.pathview, name='pathview'),\n    # definicion de vista con parametros de consulta",
+        "detail": "demoproject.demoapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "demoproject.demoapp.urls",
+        "description": "demoproject.demoapp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    path('Renderizada_Http_response', views.ejemplo_render_httpresponse,\n         name='ejemplo_render_httpresponse'),\n    path('information_request_response', views.information, name='information'),\n    # path('Usuario/<int:user_id>', views.user_by_id, name= 'user_by_id'),\n    # otra forma de parametro en url\n    path('usuario/<name>/<id>', views.pathview, name='pathview'),\n    # definicion de vista con parametros de consulta\n    path('getuser/', views.qryview, name='qryview'),",
+        "detail": "demoproject.demoapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ejemplo_render_httpresponse",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def ejemplo_render_httpresponse(request):\n    path = request.path\n    template = loader.get_template('Plantilla.html')\n    context = {'mensaje': f'Hola desde Python: {path}', }\n    return HttpResponse(template.render(context, request))\ndef index(request):\n    path = request.path\n    method = request.method\n    content = '''\n    <center>",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def index(request):\n    path = request.path\n    method = request.method\n    content = '''\n    <center>\n    <h1>Testing Django Request Response Objects</h1>\n    <p>Request path :{}</p>\n    <p>Request method:{}</p>\n  </center>\n    '''.format(path, method)",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "information",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def information(request):\n    path = request.path\n    scheme = request.scheme\n    method = request.method\n    address = request.META['REMOTE_ADDR']\n    user_agent = request.META['HTTP_USER_AGENT']\n    path_info = request.path_info\n    # otra manera de retornar\n    # response = HttpResponse('This works')\n    response = HttpResponse()",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "pathview",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def pathview(request, name, id):\n    tipo_dato1 = type(name).__name__\n    tipo_dato2 = type(id).__name__\n    return HttpResponse('Name: {} UserID: {} \\n Estos son los tipos de datos recibidos: 1.|{}| 2.|{}|  '.format(name, id, tipo_dato1, tipo_dato2))\n# definicion de la vista de la URL con los parametros de consulta\ndef qryview(request):\n    nombre = request.GET['nombre']\n    id_ = request.GET['id']\n    return HttpResponse('''\n                      El nombre cosultado fue: {}",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "qryview",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def qryview(request):\n    nombre = request.GET['nombre']\n    id_ = request.GET['id']\n    return HttpResponse('''\n                      El nombre cosultado fue: {}\n                      El id de la persona consutada es: {}\n                      '''.format(nombre, id_))\n    # ejemplo de URL de consulta http://127.0.0.1:8000/getuser/?nombre=Alex&id=14\n# renderizacion de el formulario para el envio de datos\ndef showform(request):",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "showform",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def showform(request):\n    return render(request, 'form.html')\n# respuesta de la plantilla donde se van a mostrar los datos ingresados en el formulario\ndef getform(request):\n    if request.method == 'POST':\n        ID = request.POST['id']\n        name = request.POST['name']\n    return HttpResponse('Nombre ingresado: {} ID ingresado: {}'.format(name, ID))\n# creacion de la vista del fomulario de ejmplo en el archivo forms\ndef ejemploform(request):",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "getform",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def getform(request):\n    if request.method == 'POST':\n        ID = request.POST['id']\n        name = request.POST['name']\n    return HttpResponse('Nombre ingresado: {} ID ingresado: {}'.format(name, ID))\n# creacion de la vista del fomulario de ejmplo en el archivo forms\ndef ejemploform(request):\n    form = DemoForm()\n    return render(request, 'form_form.html', {'form': form})\n# creacion de la vista del formulario modelo",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "ejemploform",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def ejemploform(request):\n    form = DemoForm()\n    return render(request, 'form_form.html', {'form': form})\n# creacion de la vista del formulario modelo\ndef exampleformmodel(request):\n    if request.method == 'POST':\n        form = ClaseForm(request.POST)\n        if form.is_valid():\n            form.save()\n            # datos = ClaseForm(request.POST)recuperacion de los datos",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "exampleformmodel",
+        "kind": 2,
+        "importPath": "demoproject.demoapp.views",
+        "description": "demoproject.demoapp.views",
+        "peekOfCode": "def exampleformmodel(request):\n    if request.method == 'POST':\n        form = ClaseForm(request.POST)\n        if form.is_valid():\n            form.save()\n            # datos = ClaseForm(request.POST)recuperacion de los datos\n            # nombre = request.POST['Primer_Nombre']\n        # return HttpResponse(f' {nombre}')\n            return redirect('demoapp:exampleformmodel')\n        else:",
+        "detail": "demoproject.demoapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.asgi",
+        "description": "demoproject.demoproject.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "demoproject.demoproject.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274'\n# SECURITY WARNING: don't run with debug turned on in production!\n#!! Este es importante para el manejo de excepeciones personalzadas\n# DEBUG = False\nDEBUG = False\n# ??Este asterisco es para definir todos los hosts posibles",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274'\n# SECURITY WARNING: don't run with debug turned on in production!\n#!! Este es importante para el manejo de excepeciones personalzadas\n# DEBUG = False\nDEBUG = False\n# ??Este asterisco es para definir todos los hosts posibles\nALLOWED_HOSTS = ['*']\n# Application definition\n# segun las aplicaciones que vallamos creando en la aplicacion tenemos que modificar tambien este archivo\nINSTALLED_APPS = [",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "DEBUG = False\n# ??Este asterisco es para definir todos los hosts posibles\nALLOWED_HOSTS = ['*']\n# Application definition\n# segun las aplicaciones que vallamos creando en la aplicacion tenemos que modificar tambien este archivo\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\n# segun las aplicaciones que vallamos creando en la aplicacion tenemos que modificar tambien este archivo\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'demoapp',\n    'newapp',\n    'myapp',",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'demoproject.urls'",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "ROOT_URLCONF = 'demoproject.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': ['templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': ['templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'demoproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\n# coneccion mysqlite\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n} ",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n} \n# # Coneccion con MYSQLworkbench\n# DATABASES = {   \n#     'default': {   \n#         'ENGINE': 'django.db.backends.mysql',   ",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.settings",
+        "description": "demoproject.demoproject.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "demoproject.demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.urls",
+        "description": "demoproject.demoproject.urls",
+        "peekOfCode": "urlpatterns = [path('', include('myapp.urls')),\n    path('demo/', include('demoapp.urls')),\n    path('newapp/', include('newapp.urls',\n                            )),\n    path('admin/', admin.site.urls),\n]\n# creacion de las url de tratamiento de erroress\n# handler404 = 'demoproject.views.handler404'",
+        "detail": "demoproject.demoproject.urls",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 2,
+        "importPath": "demoproject.demoproject.views",
+        "description": "demoproject.demoproject.views",
+        "peekOfCode": "def handler404(request, exception):\n    return HttpResponse('Page not found', status=404)\nhandler404 = 'demoproject.views.handler404'",
+        "detail": "demoproject.demoproject.views",
+        "documentation": {}
+    },
+    {
+        "label": "handler404",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.views",
+        "description": "demoproject.demoproject.views",
+        "peekOfCode": "handler404 = 'demoproject.views.handler404'",
+        "detail": "demoproject.demoproject.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "demoproject.demoproject.wsgi",
+        "description": "demoproject.demoproject.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "demoproject.demoproject.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "demoproject.myapp.migrations.0001_initial",
+        "description": "demoproject.myapp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='FormComunicate',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('nombre', models.CharField(default='Pepito', max_length=100, verbose_name='Tu nombre')),",
+        "detail": "demoproject.myapp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "demoproject.myapp.migrations.0002_menu_imagen_alter_formcomunicate_correo_and_more",
+        "description": "demoproject.myapp.migrations.0002_menu_imagen_alter_formcomunicate_correo_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('myapp', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='menu',\n            name='imagen',\n            field=models.BinaryField(blank=True, null=True),\n        ),",
+        "detail": "demoproject.myapp.migrations.0002_menu_imagen_alter_formcomunicate_correo_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "demoproject.myapp.migrations.0003_menu_descripcion",
+        "description": "demoproject.myapp.migrations.0003_menu_descripcion",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('myapp', '0002_menu_imagen_alter_formcomunicate_correo_and_more'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='menu',\n            name='descripcion',\n            field=models.CharField(default='', max_length=1000),\n        ),",
+        "detail": "demoproject.myapp.migrations.0003_menu_descripcion",
+        "documentation": {}
+    },
+    {
+        "label": "MenuAdmin",
+        "kind": 6,
+        "importPath": "demoproject.myapp.admin",
+        "description": "demoproject.myapp.admin",
+        "peekOfCode": "class MenuAdmin(admin.ModelAdmin):\n    form = MenuForm\n    list_display = ('nombreproducto', 'cantidad_producto', 'mostrar_imagen')\n    def mostrar_imagen(self, obj):\n        if obj.imagen:\n            # Codificar la imagen binaria en Base64\n            imagen_64 = base64.b64encode(obj.imagen).decode('utf-8')\n            return format_html('<img src=\"data:image/jpeg;base64,{0}\" width=\"50\" height=\"50\" />', imagen_64)\n        return 'No hay imagen'\n    mostrar_imagen.short_description = 'Imagen'",
+        "detail": "demoproject.myapp.admin",
+        "documentation": {}
+    },
+    {
+        "label": "MyappConfig",
+        "kind": 6,
+        "importPath": "demoproject.myapp.apps",
+        "description": "demoproject.myapp.apps",
+        "peekOfCode": "class MyappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'myapp'",
+        "detail": "demoproject.myapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "FormComunicateForm",
+        "kind": 6,
+        "importPath": "demoproject.myapp.forms",
+        "description": "demoproject.myapp.forms",
+        "peekOfCode": "class FormComunicateForm(forms.ModelForm):\n    class Meta:\n        model = FormComunicate\n        fields = ['nombre', 'correo', 'opinion']\n        widgets = {\n            'nombre': forms.TextInput(attrs={\n                'placeholder': 'Tu nombre',\n                'style': 'width: 300px; border: 1px solid #ccc; margin: 10px;padding: 10px;',\n                'class': 'custom-class'\n            }),",
+        "detail": "demoproject.myapp.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Reservation",
+        "kind": 6,
+        "importPath": "demoproject.myapp.models",
+        "description": "demoproject.myapp.models",
+        "peekOfCode": "class Reservation(models.Model):\n    name = models.CharField(max_length=100, blank=True)\n    contact = models.CharField(\"Phone number\", max_length=300)\n    time = models.TimeField()\n    count = models.IntegerField()\n    notes = models.CharField(max_length=300, blank=True)\n    list_display = ('Name',)\n    # def __str__(self):\n    #     return f'Nombre:{self.name}'\n# clase para mostrar los datos en tipo de columna",
+        "detail": "demoproject.myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "ReservationAdmin",
+        "kind": 6,
+        "importPath": "demoproject.myapp.models",
+        "description": "demoproject.myapp.models",
+        "peekOfCode": "class ReservationAdmin(admin.ModelAdmin):\n    list_display = ('name', 'contact', 'time', 'count', 'notes')\n# #creacion de un modelo de ejemplo de un menu\nclass Menu(models.Model):\n    nombreproducto = models.CharField(max_length=100)\n    descripcion = models.CharField(max_length=1000, default='')\n    cantidad_producto = models.IntegerField()\n    # ajustes de binarizacion para el almacenaje de archivos como imagenes\n    imagen = models.BinaryField(null=True, blank=True)\n# class MenuAdmin(admin.ModelAdmin):",
+        "detail": "demoproject.myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "Menu",
+        "kind": 6,
+        "importPath": "demoproject.myapp.models",
+        "description": "demoproject.myapp.models",
+        "peekOfCode": "class Menu(models.Model):\n    nombreproducto = models.CharField(max_length=100)\n    descripcion = models.CharField(max_length=1000, default='')\n    cantidad_producto = models.IntegerField()\n    # ajustes de binarizacion para el almacenaje de archivos como imagenes\n    imagen = models.BinaryField(null=True, blank=True)\n# class MenuAdmin(admin.ModelAdmin):\nclass MenuForm(forms.ModelForm):\n    # Se tiene que crear un campo adicional para subir la imagen\n    imagen_file = forms.ImageField(required=False)",
+        "detail": "demoproject.myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "MenuForm",
+        "kind": 6,
+        "importPath": "demoproject.myapp.models",
+        "description": "demoproject.myapp.models",
+        "peekOfCode": "class MenuForm(forms.ModelForm):\n    # Se tiene que crear un campo adicional para subir la imagen\n    imagen_file = forms.ImageField(required=False)\n    class Meta:\n        model = Menu\n        exclude =['imagen']\n        list_display = ('nombreproducto', 'cantidad_producto', 'imagen_file', 'descripcion')\n    def save(self, commit=True):\n        instancia = super().save(commit=False)\n        if self.cleaned_data['imagen_file']:",
+        "detail": "demoproject.myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "FormComunicate",
+        "kind": 6,
+        "importPath": "demoproject.myapp.models",
+        "description": "demoproject.myapp.models",
+        "peekOfCode": "class FormComunicate(models.Model):\n    nombre = models.CharField(verbose_name='Tu nombre', max_length=100)\n    correo = models.EmailField(verbose_name='Correo', max_length=100)\n    opinion = models.TextField(\n        verbose_name='Cuéntanos tu opinión', max_length=500)\n#visualizacion en el admin\nclass FormComunicateAdmin(admin.ModelAdmin):\n    list_display = ('nombre', 'correo', 'opinion')",
+        "detail": "demoproject.myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "FormComunicateAdmin",
+        "kind": 6,
+        "importPath": "demoproject.myapp.models",
+        "description": "demoproject.myapp.models",
+        "peekOfCode": "class FormComunicateAdmin(admin.ModelAdmin):\n    list_display = ('nombre', 'correo', 'opinion')",
+        "detail": "demoproject.myapp.models",
+        "documentation": {}
+    },
+    {
+        "label": "FormComunicateModelTestCase",
+        "kind": 6,
+        "importPath": "demoproject.myapp.tests",
+        "description": "demoproject.myapp.tests",
+        "peekOfCode": "class FormComunicateModelTestCase(TestCase):\n    @classmethod\n    def setUpTestData(cls):\n        cls.formcomunicate= FormComunicate.objects.create(\n            nombre = 'Alex',\n            correo = 'nocua@gmail.com',\n            opinion = 'Test de opinion'\n        )\n    def test_charfields(self):\n        self.assertIsInstance(self.formcomunicate.nombre, str)",
+        "detail": "demoproject.myapp.tests",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "demoproject.myapp.urls",
+        "description": "demoproject.myapp.urls",
+        "peekOfCode": "app_name = 'myapp'\nurlpatterns = [\n    # path('', views.home, name='home'),\n    path('about/', views.about, name='about'),\n    path('menu/', views.menu, name='menu'),\n    path('reservation/', views.reservation, name='reservation'),\n    path('principal/', views.principal, name='principal'),\n    path('', views.inicio, name='inicio'),\n    path('sobre/', views.sobre, name='sobre'),\n    path('comunicate/', views.comunicate, name='comunicate'),",
+        "detail": "demoproject.myapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "demoproject.myapp.urls",
+        "description": "demoproject.myapp.urls",
+        "peekOfCode": "urlpatterns = [\n    # path('', views.home, name='home'),\n    path('about/', views.about, name='about'),\n    path('menu/', views.menu, name='menu'),\n    path('reservation/', views.reservation, name='reservation'),\n    path('principal/', views.principal, name='principal'),\n    path('', views.inicio, name='inicio'),\n    path('sobre/', views.sobre, name='sobre'),\n    path('comunicate/', views.comunicate, name='comunicate'),\n    path('opiniones/', views.opiniones, name='opiniones'),",
+        "detail": "demoproject.myapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def home(request):\n    return HttpResponse('Bienvenido a Little Lemon')\ndef about(request):\n    return HttpResponse('Acerca de nosotros')\ndef menu(request):\n    return HttpResponse('Menú de Little Lemon')\ndef reservation(request):\n    return HttpResponse('Hacer una reserva')\n# vista de la vista principal de Little Lemon\ndef principal(request):",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def about(request):\n    return HttpResponse('Acerca de nosotros')\ndef menu(request):\n    return HttpResponse('Menú de Little Lemon')\ndef reservation(request):\n    return HttpResponse('Hacer una reserva')\n# vista de la vista principal de Little Lemon\ndef principal(request):\n    return render(request, 'base.html')\n# vista de renderizacion del contenido osobre nosotros",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def menu(request):\n    return HttpResponse('Menú de Little Lemon')\ndef reservation(request):\n    return HttpResponse('Hacer una reserva')\n# vista de la vista principal de Little Lemon\ndef principal(request):\n    return render(request, 'base.html')\n# vista de renderizacion del contenido osobre nosotros\ndef inicio(request):\n    return render(request, 'inicio.html')",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "reservation",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def reservation(request):\n    return HttpResponse('Hacer una reserva')\n# vista de la vista principal de Little Lemon\ndef principal(request):\n    return render(request, 'base.html')\n# vista de renderizacion del contenido osobre nosotros\ndef inicio(request):\n    return render(request, 'inicio.html')\ndef sobre(request):\n    return render(request, 'sobre.html')",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "principal",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def principal(request):\n    return render(request, 'base.html')\n# vista de renderizacion del contenido osobre nosotros\ndef inicio(request):\n    return render(request, 'inicio.html')\ndef sobre(request):\n    return render(request, 'sobre.html')\n# renderizaacion de la vista de opinones\ndef opiniones(request):\n    content = FormComunicate.objects.all()",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "inicio",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def inicio(request):\n    return render(request, 'inicio.html')\ndef sobre(request):\n    return render(request, 'sobre.html')\n# renderizaacion de la vista de opinones\ndef opiniones(request):\n    content = FormComunicate.objects.all()\n    context = {'content': content}\n    return render(request, 'opiniones.html', context)\n# vista para la visualizacion y dinamismo de datos de un modelo",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "sobre",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def sobre(request):\n    return render(request, 'sobre.html')\n# renderizaacion de la vista de opinones\ndef opiniones(request):\n    content = FormComunicate.objects.all()\n    context = {'content': content}\n    return render(request, 'opiniones.html', context)\n# vista para la visualizacion y dinamismo de datos de un modelo\n#!esta va a ser una funcion con la cual se va a retornar pasar de objeto a diccionario\n#! con la imagen tambien para mostrarla",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "opiniones",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def opiniones(request):\n    content = FormComunicate.objects.all()\n    context = {'content': content}\n    return render(request, 'opiniones.html', context)\n# vista para la visualizacion y dinamismo de datos de un modelo\n#!esta va a ser una funcion con la cual se va a retornar pasar de objeto a diccionario\n#! con la imagen tambien para mostrarla\n# ? Tener en cuenta que este solo se utiliza cuando se reciven mas objetos, en dado caso dada uno de estos objetos\n# ? se guarda en una lista y se extraen por medio de un for en las plantillas\ndef retornar_diccionario(objeto):",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "retornar_diccionario",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def retornar_diccionario(objeto):\n    # Convertir imágenes a base64 y añadir al contexto\n    list_menus = []\n    for item in objeto:\n        imagen_base64 = base64.b64encode(item.imagen).decode(\n            'utf-8') if item.imagen else ''\n        imagen_url = f\"data:image/jpeg;base64,{imagen_base64}\" if imagen_base64 else ''\n        list_menus.append({\n            'nombreproducto': item.nombreproducto,\n            'cantidad_producto': item.cantidad_producto,",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def menu(request):\n    # Trae todos los objetos del modelo Menu\n    content = Menu.objects.all()\n    context = retornar_diccionario(content)\n    return render(request, 'menu.html', context)\n# creacion de la vista del modelo formulario\ndef comunicate(request):\n    if request.method == 'POST':\n        form = FormComunicateForm(request.POST)\n        if form.is_valid():",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "comunicate",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def comunicate(request):\n    if request.method == 'POST':\n        form = FormComunicateForm(request.POST)\n        if form.is_valid():\n            form.save()\n            return redirect('myapp:comunicate')\n        else:\n            return HttpResponse('Ocurrio Algo')\n    else:\n        form = FormComunicateForm()",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "menu_item",
+        "kind": 2,
+        "importPath": "demoproject.myapp.views",
+        "description": "demoproject.myapp.views",
+        "peekOfCode": "def menu_item(request, id=None):\n    if id:\n        menu_item = Menu.objects.get(id=id)\n        # ? en este caso como solo es un objeto se accede directamente a el y se crea uno nuevo sustituyendo el valor de la imagen\n        imagen_base64 = base64.b64encode(menu_item.imagen).decode(\n            'utf-8') if menu_item.imagen else ''\n        imagen_url = f\"data:image/jpeg;base64,{imagen_base64}\" if imagen_base64 else ''\n        menu = {\n            'nombreproducto': menu_item.nombreproducto,\n            'cantidad_producto': menu_item.cantidad_producto,",
+        "detail": "demoproject.myapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "NewappConfig",
+        "kind": 6,
+        "importPath": "demoproject.newapp.apps",
+        "description": "demoproject.newapp.apps",
+        "peekOfCode": "class NewappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'newapp'",
+        "detail": "demoproject.newapp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "demoproject.newapp.urls",
+        "description": "demoproject.newapp.urls",
+        "peekOfCode": "urlpatterns = [ \n    path('', views.index, name='index'), \n    path('login/', views.login, name='login'),\n]",
+        "detail": "demoproject.newapp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "demoproject.newapp.views",
+        "description": "demoproject.newapp.views",
+        "peekOfCode": "def index(request):\n    address = request.META['REMOTE_ADDR']\n    user_agent = request.META['HTTP_USER_AGENT']\n    path = request.path\n    if request.method == 'POST':\n        return HttpResponsePermanentRedirect(reverse('newapp:login'))\n    # elif request.method == 'GET':\n    return render(request, 'index.html', {'address': address, 'user_agent': user_agent, 'path': path})\ndef login(request):\n    # if request.method == 'GET':",
+        "detail": "demoproject.newapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "demoproject.newapp.views",
+        "description": "demoproject.newapp.views",
+        "peekOfCode": "def login(request):\n    # if request.method == 'GET':\n    #     return render(request, 'index.html')\n    if request.method == 'POST':\n        return HttpResponsePermanentRedirect(reverse('newapp:index'))\n    return render(request, 'login.html')",
+        "detail": "demoproject.newapp.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "demoproject.manage",
+        "description": "demoproject.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demoproject.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "demoproject.manage",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "djenv.Scripts.activate_this",
+        "description": "djenv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "djenv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "ouvir_microphone",
+        "kind": 2,
+        "importPath": "PLN",
+        "description": "PLN",
+        "peekOfCode": "def ouvir_microphone():\n    microfone = sr.Recongnizer()\n    with sr.Microphone() as source:\n        microfone.sr.adjust_for_ambient_noise(source)\n        print('Fale alguma coisa')\n        audio = microfone.liste(source)\n    try:\n        frase = microfome.recongnize_google(audio, language='pt-BR')\n        if 'navegador' in frase:\n            os.system('start chorome.exe')",
+        "detail": "PLN",
+        "documentation": {}
+    }
+]

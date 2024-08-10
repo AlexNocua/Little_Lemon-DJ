@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+  {% load static %}
+  <section class="d-flex flex-column flex-md-row">
+    <div class="information col">
+      <h3 class="text-ceenter">¿Quienes somos?</h3>
+      <p>
+        <b>Little Lemon</b> es un encantador restaurante especializado en ofrecer una experiencia culinaria única que combina la frescura de los ingredientes mediterráneos con la autenticidad de las recetas tradicionales. Ubicado en el corazón de la ciudad, Little Lemon se ha convertido en un destino favorito tanto para los locales como para los visitantes que buscan disfrutar de una comida deliciosa y saludable en un ambiente acogedor y relajado.
+
+        Desde nuestra apertura, nos hemos comprometido a utilizar ingredientes de la más alta calidad, obtenidos de productores locales y sustentables. Nuestro menú está cuidadosamente diseñado para satisfacer todos los paladares, ofreciendo una variedad de platos que van desde ensaladas frescas y platos de mariscos, hasta opciones vegetarianas y veganas.
+
+        En Little Lemon, no solo nos enorgullecemos de nuestra comida, sino también de nuestro servicio al cliente. Nuestro equipo, apasionado y dedicado, se esfuerza por crear una atmósfera amigable y familiar donde cada cliente se sienta bienvenido y valorado. Ya sea que vengas a disfrutar de un almuerzo casual, una cena romántica o una celebración especial, en Little Lemon te prometemos una experiencia memorable que te hará regresar una y otra vez.
+
+        Ven y descubre por qué Little Lemon es el lugar perfecto para compartir momentos especiales con tus seres queridos. ¡Te esperamos con los brazos abiertos y una mesa llena de sabores extraordinarios!
+      </p>
+    </div>
+    <div class="image col">
+      <img class="img-fluid" src="{% static 'img/little-lemon.jpg' %}" alt="little Lemon" />
+    </div>
+  </section>
+{% endblock %}

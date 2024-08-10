@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% comment %} {% block title %}
+  Inicio- Little Lemon
+{% endblock %} {% endcomment %}
+{% block content %}
+  {% load static %}
+
+  <style>
+    h4 {
+      font-weight: 600;
+    }
+  </style>
+  <h3 class="">Inicio</h3>
+  <h4>Bienvenidos a Little Lemon</h4>
+  <p>En Little Lemon, nos enorgullecemos de crear un ambiente acogedor donde la frescura y la calidad de nuestros ingredientes se reflejan en cada platillo. Somos un restaurante comprometido con ofrecer a nuestros clientes una experiencia gastronómica excepcional, llena de sabores vibrantes y auténticos.
+
+    Sabemos que la buena comida es solo una parte de lo que hace que una experiencia sea inolvidable. Por eso, nuestro equipo está dedicado a brindarte un servicio cálido y personalizado, asegurando que cada visita a Little Lemon sea especial.</p>
+
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators"></ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active position-relative">
+          <img class="d-block w-100 img-fluid" src="{% static 'img/img.jpeg' %}" alt="Second slide" />
+          <div class="infoImage position-absolute text-center w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <h4>Experimenta</h4>
+            <h6>Consume nuevas comidas</h6>
+          </div>
+        </div>
+        <div class="carousel-item position-relative">
+          <img class="d-block w-100 img-fluid" src="{% static 'img/comida.jpg' %}" alt="Third slide" />
+          <div class="infoImage position-absolute text-center w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+            <h4>¡Aliméntate Bien!</h4>
+            <h6>Comidas de Gran calidad</h6>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only"></span>
+      </a>
+    </div>
+  </section>
+
+  <style>
+    .carousel-item img {
+      max-height: 500px; /* Limita la altura máxima de la imagen a 500px */
+      object-fit: cover; /* Asegura que la imagen se recorte para llenar el contenedor */
+    }
+    
+    .infoImage {
+      top: 0;
+      left: 0;
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    }
+    .carousel-item {
+      position: relative;
+    }
+  </style>
+
+  <style>
+    .infoImage {
+      top: 0;
+      left: 0;
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    }
+    .carousel-item {
+      position: relative;
+    }
+    .carouselExampleIndicators,
+    .carousel-item,
+    .infoImage {
+      border-radius: 12px !important;
+    }
+  </style>
+{% endblock %}

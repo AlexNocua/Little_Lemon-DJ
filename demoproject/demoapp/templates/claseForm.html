@@ -1,0 +1,10 @@
+<h1>Hola, este es un ejemplo de la clase formulario</h1>
+
+<form action="{% url 'demoapp:exampleformmodel' %}" method="post">
+  {% csrf_token %}
+
+  {{ form }}
+  <input type="submit" value="Enviar informacion" />
+</form>
+<h3>Datos ingresados</h3>
+<p>{{form.Primer_Nombre.value}}

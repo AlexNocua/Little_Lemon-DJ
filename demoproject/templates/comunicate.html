@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+  <style>
+    .items-form {
+      color: red;
+    }
+  </style>
+  <div class="container d-flex flex-column flex-md-row mb-3">
+    <h3>Contactanos</h3>
+    <form class="d-flex flex-column justify-content-center  m-2 " action="{% url 'myapp:comunicate' %}" method="post">
+      {% csrf_token %}
+      <div class="d-flex flex-column justify-content-center align-content-center align-items-center">{{ form }}</div>
+      <input class="btn btn-success w-100" type="submit" value="Enviar informacion" />
+    </form>
+    <div class=" m-2 w-50">
+      <h3>Contactanos:</h3>
+      <p>En Little Lemon, estamos aquí para ofrecerte una experiencia culinaria única y memorable. Ya sea que desees hacer una reservación, preguntar sobre nuestro menú, o simplemente compartir tus comentarios, estamos a tu disposición.
+
+        Nuestro equipo está listo para ayudarte con cualquier duda que tengas, desde sugerencias de platillos hasta opciones de catering para tu próximo evento especial.</p>
+    </div>
+  </div>
+
+{% endblock %}
