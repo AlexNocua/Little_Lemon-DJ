@@ -849,7 +849,7 @@
         "kind": 5,
         "importPath": "demoproject.urls",
         "description": "demoproject.urls",
-        "peekOfCode": "urlpatterns = [path('', include('myapp.urls')),\n               path('demo/', include('demoapp.urls')),\n               path('newapp/', include('newapp.urls')),\n               path('admin/', admin.site.urls),\n               ]\nif settings.DEBUG:\n    urlpatterns += static(settings.STATIC_URL,\n                          document_root=settings.STATIC_ROOT)\n# creacion de las url de tratamiento de erroress\n# handler404 = 'demoproject.views.handler404'",
+        "peekOfCode": "urlpatterns = [path('', include('myapp.urls')),\n               path('demo/', include('demoapp.urls')),\n               path('newapp/', include('newapp.urls')),\n               path('admin/', admin.site.urls),\n               ]\n# if settings.DEBUG:\n#     urlpatterns += static(settings.STATIC_URL,\n#                           document_root=settings.STATIC_ROOT)\n# creacion de las url de tratamiento de erroress\n# handler404 = 'demoproject.views.handler404'",
         "detail": "demoproject.urls",
         "documentation": {}
     },
