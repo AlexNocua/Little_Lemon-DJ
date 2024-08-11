@@ -22,12 +22,10 @@
           </div>
           <div class="text-center">
             <h1 class="text-center">
-              Bienvenido a Little Lemon{% block title %}
-
-              {% endblock %}
+              Bienvenido a Little Lemon{% block title %}{% endblock %}
             </h1>
           </div>
-          <div class="items d-flex justify-content-center">
+          <div class="items d-flex justify-content-center flex-wrap">
             <style>
               .items {
                 background-color: #4d7056;
@@ -38,11 +36,20 @@
                 text-decoration: none;
                 color: #fff;
                 transition: all 0.5s;
+                display: inline-block;
               }
               .links_nav:hover {
-                transition: all 0.5s;
                 background-color: #3c463e;
                 font-size: 17px;
+              }
+              @media (max-width: 768px) {
+                .items {
+                  text-align: center;
+                }
+                .links_nav {
+                  display: block;
+                  margin: 8px 0;
+                }
               }
               label {
                 font-weight: bold;
@@ -53,7 +60,6 @@
                 border-color: #3c463e;
                 width: 50%;
               }
-              
               h1 {
                 font-weight: bold;
               }
@@ -61,7 +67,6 @@
                 font-weight: 600;
               }
             </style>
-            <!-- base.html o cualquier otra plantilla donde tengas los enlaces -->
             <a class="links_nav" href="{% url 'myapp:inicio' %}">Inicio</a>
             <a class="links_nav" href="{% url 'myapp:menu' %}">Menu</a>
             <a class="links_nav" href="{% url 'myapp:sobre' %}">Nosotros</a>
