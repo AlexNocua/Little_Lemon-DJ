@@ -26,11 +26,12 @@ SECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274
 
 #!! Este es importante para el manejo de excepeciones personalzadas
 # DEBUG = False
-DEBUG = False
+DEBUG = True
 
 # ??Este asterisco es para definir todos los hosts posibles
 # en este caso se utiliza el que esta en deploy
-ALLOWED_HOSTS = ['littlelemon-dj-production.up.railway.app',]
+# ALLOWED_HOSTS = ['littlelemon-dj-production.up.railway.app',]
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition
@@ -159,9 +160,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
