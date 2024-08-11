@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274
 DEBUG = True
 
 # ??Este asterisco es para definir todos los hosts posibles
-ALLOWED_HOSTS = ['*']
+# en este caso se utiliza el que esta en deploy
+ALLOWED_HOSTS = ['littlelemon-dj-production.up.railway.app',]
 
 
 # Application definition
@@ -165,3 +166,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+#configuraciones para host confiables
+CSRF_TRUSTED_ORIGINS = [
+    'https://littlelemon-dj-production.up.railway.app',
+]
