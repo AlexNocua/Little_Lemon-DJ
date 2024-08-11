@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274
 
 #!! Este es importante para el manejo de excepeciones personalzadas
 # DEBUG = False
-DEBUG = True
+DEBUG = False
 
 # ??Este asterisco es para definir todos los hosts posibles
 # en este caso se utiliza el que esta en deploy
@@ -57,6 +57,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # WhiteNoise,  a agregar el middleware WhiteNoiseMiddleware para el manejo de archivos estaticos en deploy
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'demoproject.urls'
@@ -90,23 +92,22 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
-} 
+}
 
 # # Coneccion con MYSQLworkbench
-# DATABASES = {   
-#     'default': {   
-#         'ENGINE': 'django.db.backends.mysql',   
-#         'NAME': 'mydatabase',   
-#         'USER': 'root',   
-#         'PASSWORD': '',   
-#         'HOST': '127.0.0.1',   
-#         'PORT': '3306',   
-#         'OPTIONS': {   
-#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"   
-#         }   
-#     }   
-# } 
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'mydatabase',
+#         'USER': 'root',
+#         'PASSWORD': '',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#         'OPTIONS': {
+#             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+#         }
+#     }
+# }
 
 
 # DATABASES = {
@@ -119,7 +120,6 @@ DATABASES = {
 #         'PORT': env('DB_PORT', default='3306'),
 #     }
 # }
-
 
 
 # Password validation
@@ -156,11 +156,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = '/static/'
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, 'static'),
-# ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -168,7 +169,10 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-#configuraciones para host confiables
+# configuraciones para host confiables
 CSRF_TRUSTED_ORIGINS = [
     'https://littlelemon-dj-production.up.railway.app',
 ]
+
+# whitenoise configuracion para lectura de archivos estaticos
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

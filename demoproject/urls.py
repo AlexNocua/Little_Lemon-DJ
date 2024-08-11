@@ -17,16 +17,20 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import include, path
+# importacion de librerias para el manejo de archivos estaticos en deploy
+from django.conf import settings
+from django.conf.urls.static import static
+
 
 # conforme vamos creando aplicaciones dentro del proyecto
 # tenemos que ajustar esto
 
 urlpatterns = [path('', include('myapp.urls')),
-    path('demo/', include('demoapp.urls')),
-    path('newapp/', include('newapp.urls',
-                            )),
-    path('admin/', admin.site.urls),
-]
+               path('demo/', include('demoapp.urls')),
+               path('newapp/', include('newapp.urls')),
+               path('admin/', admin.site.urls),
+               static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),
+               ]
 
 # creacion de las url de tratamiento de erroress
 # handler404 = 'demoproject.views.handler404'

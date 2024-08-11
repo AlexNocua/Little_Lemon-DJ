@@ -419,6 +419,22 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
         "label": "handler404",
         "importPath": "demoproject.demoproject.views",
         "description": "demoproject.demoproject.views",
@@ -653,7 +669,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274'\n# SECURITY WARNING: don't run with debug turned on in production!\n#!! Este es importante para el manejo de excepeciones personalzadas\n# DEBUG = False\nDEBUG = True\n# ??Este asterisco es para definir todos los hosts posibles",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274'\n# SECURITY WARNING: don't run with debug turned on in production!\n#!! Este es importante para el manejo de excepeciones personalzadas\n# DEBUG = False\nDEBUG = False\n# ??Este asterisco es para definir todos los hosts posibles",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -662,7 +678,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274'\n# SECURITY WARNING: don't run with debug turned on in production!\n#!! Este es importante para el manejo de excepeciones personalzadas\n# DEBUG = False\nDEBUG = True\n# ??Este asterisco es para definir todos los hosts posibles\n# en este caso se utiliza el que esta en deploy\nALLOWED_HOSTS = ['littlelemon-dj-production.up.railway.app',]\n# Application definition\n# segun las aplicaciones que vallamos creando en la aplicacion tenemos que modificar tambien este archivo",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274'\n# SECURITY WARNING: don't run with debug turned on in production!\n#!! Este es importante para el manejo de excepeciones personalzadas\n# DEBUG = False\nDEBUG = False\n# ??Este asterisco es para definir todos los hosts posibles\n# en este caso se utiliza el que esta en deploy\nALLOWED_HOSTS = ['littlelemon-dj-production.up.railway.app',]\n# Application definition\n# segun las aplicaciones que vallamos creando en la aplicacion tenemos que modificar tambien este archivo",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -671,7 +687,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "DEBUG = True\n# ??Este asterisco es para definir todos los hosts posibles\n# en este caso se utiliza el que esta en deploy\nALLOWED_HOSTS = ['littlelemon-dj-production.up.railway.app',]\n# Application definition\n# segun las aplicaciones que vallamos creando en la aplicacion tenemos que modificar tambien este archivo\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "DEBUG = False\n# ??Este asterisco es para definir todos los hosts posibles\n# en este caso se utiliza el que esta en deploy\nALLOWED_HOSTS = ['littlelemon-dj-production.up.railway.app',]\n# Application definition\n# segun las aplicaciones que vallamos creando en la aplicacion tenemos que modificar tambien este archivo\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -698,7 +714,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'demoproject.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n    # WhiteNoise,  a agregar el middleware WhiteNoiseMiddleware para el manejo de archivos estaticos en deploy\n    'whitenoise.middleware.WhiteNoiseMiddleware',",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -725,7 +741,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'demoproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\n# coneccion mysqlite\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n} ",
+        "peekOfCode": "WSGI_APPLICATION = 'demoproject.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\n# coneccion mysqlite\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -734,7 +750,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n} \n# # Coneccion con MYSQLworkbench\n# DATABASES = {   \n#     'default': {   \n#         'ENGINE': 'django.db.backends.mysql',   ",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# # Coneccion con MYSQLworkbench\n# DATABASES = {\n#     'default': {\n#         'ENGINE': 'django.db.backends.mysql',",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -752,7 +768,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -761,7 +777,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -770,7 +786,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\n# Default primary key field type",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -779,16 +795,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
-        "detail": "demoproject.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "demoproject.settings",
-        "description": "demoproject.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# STATICFILES_DIRS = [\n#     os.path.join(BASE_DIR, 'static'),\n# ]\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#configuraciones para host confiables\nCSRF_TRUSTED_ORIGINS = [",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -797,7 +804,25 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#configuraciones para host confiables\nCSRF_TRUSTED_ORIGINS = [\n    'https://littlelemon-dj-production.up.railway.app',\n]",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# configuraciones para host confiables\nCSRF_TRUSTED_ORIGINS = [",
+        "detail": "demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "demoproject.settings",
+        "description": "demoproject.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\nSTATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# configuraciones para host confiables\nCSRF_TRUSTED_ORIGINS = [\n    'https://littlelemon-dj-production.up.railway.app',",
+        "detail": "demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "demoproject.settings",
+        "description": "demoproject.settings",
+        "peekOfCode": "STATICFILES_DIRS = (\n    os.path.join(BASE_DIR, 'static'),\n)\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# configuraciones para host confiables\nCSRF_TRUSTED_ORIGINS = [\n    'https://littlelemon-dj-production.up.railway.app',\n]",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -806,7 +831,7 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n#configuraciones para host confiables\nCSRF_TRUSTED_ORIGINS = [\n    'https://littlelemon-dj-production.up.railway.app',\n]",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\n# configuraciones para host confiables\nCSRF_TRUSTED_ORIGINS = [\n    'https://littlelemon-dj-production.up.railway.app',\n]\n# whitenoise configuracion para lectura de archivos estaticos\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -815,7 +840,16 @@
         "kind": 5,
         "importPath": "demoproject.settings",
         "description": "demoproject.settings",
-        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\n    'https://littlelemon-dj-production.up.railway.app',\n]",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\n    'https://littlelemon-dj-production.up.railway.app',\n]\n# whitenoise configuracion para lectura de archivos estaticos\nSTATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
+        "detail": "demoproject.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_STORAGE",
+        "kind": 5,
+        "importPath": "demoproject.settings",
+        "description": "demoproject.settings",
+        "peekOfCode": "STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'",
         "detail": "demoproject.settings",
         "documentation": {}
     },
@@ -824,7 +858,7 @@
         "kind": 5,
         "importPath": "demoproject.urls",
         "description": "demoproject.urls",
-        "peekOfCode": "urlpatterns = [path('', include('myapp.urls')),\n    path('demo/', include('demoapp.urls')),\n    path('newapp/', include('newapp.urls',\n                            )),\n    path('admin/', admin.site.urls),\n]\n# creacion de las url de tratamiento de erroress\n# handler404 = 'demoproject.views.handler404'",
+        "peekOfCode": "urlpatterns = [path('', include('myapp.urls')),\n               path('demo/', include('demoapp.urls')),\n               path('newapp/', include('newapp.urls')),\n               path('admin/', admin.site.urls),\n               static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),\n               ]\n# creacion de las url de tratamiento de erroress\n# handler404 = 'demoproject.views.handler404'",
         "detail": "demoproject.urls",
         "documentation": {}
     },
