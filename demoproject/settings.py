@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vp=!ql^r*r@ez4*-y@8cucc$2ytx3)p@5_lq+ab-@q(ekny274
 
 #!! Este es importante para el manejo de excepeciones personalzadas
 # DEBUG = False
-DEBUG = False
+DEBUG = True
 
 # ??Este asterisco es para definir todos los hosts posibles
 ALLOWED_HOSTS = ['*']
