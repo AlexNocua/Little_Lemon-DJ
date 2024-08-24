@@ -19,7 +19,7 @@
     <table class="table">
       <thead>
         <tr>
-          <th scope="col"></th>
+          <th scope="col">N°</th>
           <th scope="col">Nombre del usuario</th>
           {% comment %} <th scope="col">Correo</th> {% endcomment %}
           <th scope="col">Opinion</th>
@@ -28,7 +28,7 @@
       <tbody>
         {% for item in content %}
           <tr>
-            <th scope="row">1</th>
+            <th scope="row">{{ forloop.counter }}</th>
             <td>{{ item.nombre }}</td>
             {% comment %} <td>{{ item.correo }}</td> {% endcomment %}
             <td>{{ item.opinion }}</td>
