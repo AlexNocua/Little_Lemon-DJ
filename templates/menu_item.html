@@ -2,15 +2,15 @@
 
 {% block content %}
   <h3>Conoce mas información sobre tu producto</h3>
-  <section class="container">
+  <section class="container mb-5">
     <div class="info">
       <p class="">
-        <b>Producto: </b>{{ menu_info.nombreproducto }}
+        <b>Producto:</b>{{ menu_info.nombreproducto }}
       </p>
     </div>
     <div class="info">
       <p class="">
-        <b>Cantidad: </b>{{ menu_info.cantidad_producto }}
+        <b>Cantidad:</b>{{ menu_info.cantidad_producto }}
       </p>
     </div>
 
@@ -20,9 +20,9 @@
       </p>
       <div class="col text-center justify-content-center">
         <p class="">
-          <b>Imagen:</b>
+          <b>Imagen del producto:</b>
         </p>
-        <img class="" src="{{ menu_info.imagen_url }}" alt="Imagen {{ menu_info.nombreproducto }}" style="max-width: 200px;" />
+        <img class="" src="{{ menu_info.imagen_url }}" alt="Imagen {{ menu_info.nombreproducto }}" style="max-width: 200px;border-radius:8px;" />
       </div>
     </div>
   </section>

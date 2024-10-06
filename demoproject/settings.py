@@ -58,8 +58,10 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.security.SecurityMiddleware',
     # WhiteNoise,  a agregar el middleware WhiteNoiseMiddleware para el manejo de archivos estaticos en deploy
     'whitenoise.middleware.WhiteNoiseMiddleware',
+
 ]
 
 ROOT_URLCONF = 'demoproject.urls'
@@ -161,7 +163,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 
-
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
@@ -171,6 +172,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # configuraciones para host confiables
 CSRF_TRUSTED_ORIGINS = [
     'https://littlelemon-dj-production.up.railway.app',
+    'https://little-lemon-dj.onrender.com'
 ]
 
 # whitenoise configuracion para lectura de archivos estaticos
