@@ -1,6 +1,8 @@
+from decouple import config
 import os
 from pathlib import Path
-
+# Import dj-database-url at the beginning of the file.
+import dj_database_url
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -38,6 +40,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'demoproject.urls'
@@ -60,13 +63,25 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'demoproject.wsgi.application'
 
-# Database configuration (SQLite)
+
+# Database configuration (PosgreSQL)
+
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.config(
+        # Cargar la variable desde el archivo .env
+        default=config('DATABASE_URL'),
+        conn_max_age=600,
+    )
 }
+
+
+# Database configuration (SQLite)
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
@@ -82,9 +97,19 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 USE_TZ = True
 
-# Static files (CSS, JavaScript, Images)
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+# # Static files (CSS, JavaScript, Images)
+# # STATIC_URL = '/static/'
+# # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# STATIC_URL = '/static/'
+
+# This production code might break development mode, so we check whether we're in DEBUG mode
+if not DEBUG:
+    # Tell Django to copy static assets into a path called `staticfiles` (this is specific to Render)
+    STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+    # Enable the WhiteNoise storage backend, which compresses static files to reduce disk use
+    # and renames the files with unique names for each version to support long-term caching
+    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
